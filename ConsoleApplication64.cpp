@@ -2,12 +2,11 @@
 
 int main()
 {
-    int vvod = 0;
-    do {
-        std::cout << "Hello mir?[1/2]";
-        std::cin >> vvod;
-        if (vvod == 1) { std::cout << "xxxmanera krutit mir"; break; };
-        if (vvod == 2) { std::cout << "Jalko"; break; };
-    } while (vvod != 0);
-    std::cout << "DKFDLFSD:JK";
+    std::cout << "vvod 1 chislo: ";
+    int x;
+    std::cin >> x;
+    std::cout << "vvod 2 chislo: ";
+    int y;
+    std::cin >> y;
+    std::cout << "Sum: " + (x+y);
 }

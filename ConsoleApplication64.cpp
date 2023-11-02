@@ -9,4 +9,5 @@ int main()
     int y;
     std::cin >> y;
     std::cout << "Sum: " + (x+y);
+    std::cout << "Ymn: " + (x * y);
 }

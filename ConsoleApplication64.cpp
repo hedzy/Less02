@@ -9,4 +9,5 @@ int main()
         if (vvod == 1) { std::cout << "xxxmanera krutit mir"; break; };
         if (vvod == 2) { std::cout << "Jalko"; break; };
     } while (vvod != 0);
+    std::cout << "DKFDLFSD:JK";
 }

@@ -8,6 +8,5 @@ int main()
     std::cout << "vvod 2 chislo: ";
     int y;
     std::cin >> y;
-    std::cout << "Sum: " + (x+y);
-    std::cout << "Ymn: " + (x * y);
+    std::cout << "Minus: " + (x-y);
 }
